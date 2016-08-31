@@ -33,7 +33,7 @@ var Music = {
     playSong: function(name) {
         if (this.song != null) this.stopPlaying();
         this.song = document.getElementById('music_' + name);
-        this.song.volume = 0.3;
+        this.song.volume = 0.1;
         this.song.play();
     },
 
